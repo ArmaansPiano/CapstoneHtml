@@ -1,0 +1,54 @@
+
+h1{
+color: red;
+padding-left: 800px;
+margin: 100px;
+}
+
+h2{
+color: red;
+}
+.header * {
+    margin: 50px;
+    color: white;
+}
+.header {
+   justify-content: space-between; 
+   color: white;
+}
+.site-description {
+
+    flex-direction: column;
+    justify-content: first baseline;
+    color: white;
+}
+.grid {
+    justify-content: space-evenly;
+    color: white
+}
+.footer {
+    color: white;
+}
+p,h2 {
+    text-align: center;
+    color: white;
+}
+
+a:link {
+    color: white
+
+}
+a:visited {
+    color: red
+}
+.item {
+    position: relative;
+    
+}
+*{
+    height: 0px;
+    margin-bottom: 125px;
+    background-image: url("city.jpg");
+    background-repeat: repeat;
+    background-color: #FFFFFF
+}
